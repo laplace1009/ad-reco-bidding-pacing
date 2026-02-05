@@ -16,6 +16,8 @@ Ad recommendation bidding & pacing experiments / services.
 
 ## Development
 
-- Create a virtualenv, install deps, then run tests:
-  - `python -m pytest`
+- Sync deps (creates `.venv`) then run tests:
+  - `uv sync --dev`
+  - `uv run pytest`
 
+Note: the first `uv sync` needs network access to download packages.
